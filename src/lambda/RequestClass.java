@@ -3,11 +3,11 @@ package lambda;
 public class RequestClass {
 
 	private String action;
-	private String bucketName;
-	private Boolean live;
-	private Integer files;
-	private Integer batch;
-	private String redShift;
+	private String Bucket;
+	private Boolean Live;
+	private Integer Files;
+	private Integer Batch;
+	private String RedShift;
 	
 	public RequestClass(){
 		
@@ -16,7 +16,7 @@ public class RequestClass {
 	public final String toString() {
 		return 
 				this.getAction() + ":" + 
-				this.getBucketName() + ":" + 
+				this.getBucket() + ":" + 
 				this.getLive() + ":" + 
 				this.getFiles() + ":" +
 				this.getBatch() + ":" +
@@ -29,35 +29,35 @@ public class RequestClass {
 	public final void setAction(String action) {
 		this.action = action;
 	}
-	public final String getBucketName() {
-		return bucketName;
+	public final String getBucket() {
+		return Bucket;
 	}
-	public final void setBucketName(String bucketName) {
-		this.bucketName = bucketName;
+	public final void setBucket(String Bucket) {
+		this.Bucket = Bucket;
 	}
 	public final Boolean getLive() {
-		return live;
+		return Live;
 	}
-	public final void setLive(Boolean live) {
-		this.live = live;
+	public final void setLive(Boolean Live) {
+		this.Live = Live;
 	}
 	public final Integer getFiles() {
-		return files;
+		return Files;
 	}
-	public final void setFiles(Integer files) {
-		this.files = files;
+	public final void setFiles(Integer Files) {
+		this.Files = Files;
 	}
 	public final Integer getBatch() {
-		return batch;
+		return Batch;
 	}
-	public final void setBatch(Integer batch) {
-		this.batch = batch;
+	public final void setBatch(Integer Batch) {
+		this.Batch = Batch;
 	}
 	public final String getRedShift() {
-		return redShift;
+		return RedShift;
 	}
-	public final void setRedShift(String redShift) {
-		this.redShift = redShift;
+	public final void setRedShift(String RedShift) {
+		this.RedShift = RedShift;
 	}
 	
 	
