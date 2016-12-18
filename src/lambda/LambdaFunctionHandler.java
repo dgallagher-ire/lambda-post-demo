@@ -9,8 +9,7 @@ public class LambdaFunctionHandler implements RequestHandler<RequestClass, Respo
     @Override
     public ResponseClass handleRequest(RequestClass input, Context context) {
     	final LambdaLogger logger = context.getLogger();
-        logger.log("started");
-
+        logger.log("RQ:"+input.toString());
         final ResponseClass resp = new ResponseClass();
         resp.setResponse(input.toString());
         return resp;
