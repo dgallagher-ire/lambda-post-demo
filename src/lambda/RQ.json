@@ -8,23 +8,23 @@
             "description": "The unique identifier for a product",
             "type": "string"
         },
-		"Bucket": {
+		"bucket": {
             "description": "The unique identifier for a product",
             "type": "string"
         },
-		"Live": {
+		"live": {
             "description": "The unique identifier for a product",
             "type": "boolean"
         },
-		"Files": {
+		"files": {
             "description": "The unique identifier for a product",
             "type": "integer"
         },
-		"Batch": {
+		"batch": {
             "description": "The unique identifier for a product",
             "type": "integer"
         },
-		"RedShift": {
+		"redShift": {
             "description": "The unique identifier for a product",
             "type": "string"
         }

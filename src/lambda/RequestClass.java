@@ -3,11 +3,11 @@ package lambda;
 public class RequestClass {
 
 	private String action;
-	private String Bucket;
-	private Boolean Live;
-	private Integer Files;
-	private Integer Batch;
-	private String RedShift;
+	private String bucket;
+	private Boolean live;
+	private Integer files;
+	private Integer batch;
+	private String redShift;
 	
 	public RequestClass(){
 		
@@ -30,34 +30,34 @@ public class RequestClass {
 		this.action = action;
 	}
 	public final String getBucket() {
-		return Bucket;
+		return bucket;
 	}
 	public final void setBucket(String Bucket) {
-		this.Bucket = Bucket;
+		this.bucket = Bucket;
 	}
 	public final Boolean getLive() {
-		return Live;
+		return live;
 	}
 	public final void setLive(Boolean Live) {
-		this.Live = Live;
+		this.live = Live;
 	}
 	public final Integer getFiles() {
-		return Files;
+		return files;
 	}
 	public final void setFiles(Integer Files) {
-		this.Files = Files;
+		this.files = Files;
 	}
 	public final Integer getBatch() {
-		return Batch;
+		return batch;
 	}
 	public final void setBatch(Integer Batch) {
-		this.Batch = Batch;
+		this.batch = Batch;
 	}
 	public final String getRedShift() {
-		return RedShift;
+		return redShift;
 	}
 	public final void setRedShift(String RedShift) {
-		this.RedShift = RedShift;
+		this.redShift = RedShift;
 	}
 	
 	
